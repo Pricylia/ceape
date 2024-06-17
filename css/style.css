@@ -6,7 +6,7 @@
 }
 
 body{
-    background-color: black;
+    background-color: white;
 }
 
 .interface{
@@ -60,6 +60,7 @@ header .menu-desktop nav ul li a{
 
 .menu-desktop nav a:hover{
     transform: scale(1.05);
+    
 }
 
 header .btn-contato button{
@@ -104,4 +105,202 @@ section.hero-site{
     width: 220px;
     height: 60px;
     font-size: 20px;
+}
+
+/* ESTILO DAS VANTAGENS */
+
+section.produtos{
+    padding: 80px 0;
+}
+
+.produtos .itens-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10%;
+    margin-bottom: 60px;
+}
+
+.produtos .itens-container .img-itens img{
+    max-width: 400px;
+}
+
+.produtos .itens-container .txt-itens h3{
+    font-size: 2.5em;
+    line-height: 50px;
+    margin-bottom: 20px;
+}
+
+/* ESTILO AJUDAMOS */
+
+.ajudamos{
+    padding: 60px 0;
+    background-color: #FACB03;
+}
+
+.ajudamos .titulo{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.ajudamos .titulo h1{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.ajudamos .container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10%;
+    margin-bottom: 60px;
+}
+
+/* ESTILO NOSSOS BENEFICIOS*/
+section.produtos{
+    padding: 40px 4%;
+}
+
+section.produtos .flex{
+    display: flex;
+    gap: 100px;
+    justify-content: space-between;
+}
+
+.produtos .titulo{
+    text-align: center;
+}
+
+.produtos .produtos-box{
+    color: #FACB03;
+    padding: 40px;
+    border-radius: 20px;
+    margin-top: 20px;
+    transition: .2s;
+}
+
+.produtos .produtos-box:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 8px #FACB03;
+}
+
+.produtos .produtos-box i{
+    font-size: 50px;
+    color: #FACB03;
+}
+
+.produtos .produtos-box h3{
+    font-size: 28px;
+    margin: 15px 0;
+}
+
+.produtos .produtos-box p {
+    margin: 15px 0; /* Adicione uma margem para separar os elementos */
+}
+
+/* Casos de Sucesso */
+.depoimentos h3{
+    text-align: center;
+    color: #FACB03;
+}
+
+.depoimentos p{
+    margin-bottom: 20px;
+    text-align: center;
+    color: #FACB03;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+}
+
+.depoimentos .card-item{
+    background-color: #FACB03;
+    margin: 15px;
+    border-radius: 14px;
+    text-align: center;
+    width: 350px;
+    transition: 0.3s;
+}
+
+.depoimentos .card-item .nome-user{
+    color: #113793;
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 15px;
+    transition: 0.3s;
+}
+
+.depoimentos .card-item .agente{
+    color: #113793;
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 15px;
+    margin-bottom: 15px;
+    transition: 0.3s;
+}
+
+.depoimentos .card-item .depoimento-user{
+    color: #113793;
+    font-size: 13px;
+    padding: 0 15px;
+    transition: 0.3s;
+}
+
+.depoimentos .card-item .estrelas{
+    margin: 15px 0;
+    border-top: 2px solid #113793;
+}
+
+.depoimentos .card-item .estrelas i{
+    color: #113793;
+    margin-top: 15px;
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+.depoimentos .card-item:hover{
+    background-color: #FACB03;
+    margin-top: -5px;
+}
+
+.depoimentos .card-item:hover .nome-user,
+.depoimentos .card-item:hover .agente,
+.depoimentos .card-item:hover .depoimento-user,
+.depoimentos .card-item:hover .estrelas i{
+    color: #113793;
+}
+
+/* ESTILO RODAPÉ */
+footer{
+    background-color: #FACB03;
+}
+
+footer .flex{
+    padding: 0 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} 
+
+footer .line-footer{
+    padding: 2px 0;
+}
+
+footer .line-footer img{
+    max-width: 100px; 
+}
+
+.btn-social button{
+    width: 30px;
+    height: 60px;
+    border-radius: 40%;
+    border: none;
+    background-color: #FACB03;
+    color: #113793;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 1.2s;
 }
