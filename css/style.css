@@ -133,29 +133,6 @@ header .btn-contato button:hover{
     color: #113793; 
     border: 1px solid #FACB03;
 }
-/* ESTILO DAS VANTAGENS */
-
-section.produtos{
-    padding: 80px 0;
-}
-
-.produtos .itens-container{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 10%;
-    margin-bottom: 60px;
-}
-
-.produtos .itens-container .img-itens img{
-    max-width: 400px;
-}
-
-.produtos .itens-container .txt-itens h3{
-    font-size: 2.5em;
-    line-height: 50px;
-    margin-bottom: 20px;
-}
 
 /* ESTILO AJUDAMOS */
 
@@ -227,15 +204,27 @@ section.produtos .flex{
 /* Casos de Sucesso */
 
 .depoimentos{
-    width: 100%;
     padding: 50px 4%;
 
     max-width: 900%;
+    position: relative;
+
+    overflow: hidden;
+}
+
+.depoimentos .slide{
+    padding: 40px 60px;
+
+}
+
+.swiper-slide{
+    background-color: #FACB03;
+    text-align: center;
 }
 
 .depoimentos i{
     font-size: 50px;
-    color: #FACB03;
+    color: #113793;
 }
 
 .depoimentos p.depoi-txt{
