@@ -6,7 +6,7 @@
 }
 
 body{
-    background-color: white;
+    background-color: #113793;
 }
 
 .interface{
@@ -40,6 +40,7 @@ header .interface{
 
 header .logo img{
     max-width: 60%;
+    cursor: pointer;
 }
 
 header .menu-desktop nav ul{

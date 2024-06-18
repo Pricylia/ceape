@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>Ceape Microcrédito</title>
     <!-- GOOGLE FONTS -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -19,14 +20,16 @@
         <div class="interface">
 
             <section class="logo">
-                <img src="images/logo.png" alt="logotipo do site">
+                <a href="#topo">
+                    <img src="images/logo.png" alt="logotipo do site">
+                </a>
             </section>
 
             <section class="menu-desktop">
                 <nav>
                     <ul>
-                        <li><a href="#">Inicio</a></li>
-                        <li><a href="#">Produtos</a></li>
+                        <li><a href="#topo">Inicio</a></li>
+                        <li><a href="#produto">Produtos</a></li>
                         <li><a href="#">Benefícios</a></li>
                         <li><a href="#">Trabalhe Conosco</a></li>
                     </ul>
@@ -43,7 +46,7 @@
 
     </header>
 
-    <section class="hero-site">
+    <section class="hero-site" id="topo">
 
         <div class="interface">
 
@@ -61,11 +64,47 @@
 
     </section>
 
+ <!-- PRODUTOS -->
+    <section class="ajudamos" id="produto">
+        <div class="titulo" data-aos="fade-up">
+            <h1>NOSSOS PRODUTOS</h3>
+                <p>
+                    O empréstimo rápido e fácil, com as melhores taxas de juros do mercado,<br> acompanhamentos e orientação técnica gratuita!
+                </p>
+        </div>
+    </section>
+
+    <!-- PRODUTOS -->
+    <section class="produtos">
+            <div class="flex">
+                <div class="produtos-box" data-aos="fade-up" data-aos-offset="200"
+                data-aos-delay="50" data-aos-duration="2000">
+                    <h3>Ceape Fácil</h3>
+                    <p>dinheiro rápido e fácil para quitar alguma dívida do empreendimento.</p>
+                </div>
+                <div class="produtos-box" data-aos="fade-up" data-aos-offset="200"
+                data-aos-delay="100" data-aos-duration="2000">
+                    <h3>Capital de <br> Giro</h3>
+                    <p>destinado ao financiamento das operações da empresa e custos/despesas operacionais.</p>
+                </div>
+                <div class="produtos-box" data-aos="fade-up" data-aos-offset="200"
+                data-aos-delay="150" data-aos-duration="2000">
+                    <h3>Reforma / <br> Ampliação</h3>
+                    <p>financiamento da reforma ou ampliação de seu empreendimento.</p>
+                </div>
+                <div class="produtos-box" data-aos="fade-up" data-aos-offset="200"
+                data-aos-delay="170" data-aos-duration="2000">
+                    <h3><br>Máquinas</h3>
+                    <p>Empréstimo destinado para a compra de máquinas, equipamentos.</p>
+                </div>
+            </div>
+        </div>
+    </section>
     <!-- PRODUTOS -->
     <section class="produtos">
         <div class="interface">
 
-            <article class="itens-container">
+            <article class="itens-container" data-aos="fade-up">
 
                 <div class="txt-itens">
                     <h3>Ceape Fácil</h3>
@@ -78,7 +117,7 @@
 
             </article>
 
-            <article class="itens-container">
+            <article class="itens-container" data-aos="fade-up">
 
                 <div class="img-itens">
                     <img src="images/capitaldegiro.png" alt="">
@@ -91,7 +130,7 @@
 
             </article>
 
-            <article class="itens-container">
+            <article class="itens-container" data-aos="fade-up">
 
                 <div class="txt-itens">
                     <h3>Reforma/Ampliação</h3>
@@ -104,7 +143,7 @@
 
             </article>
 
-            <article class="itens-container">
+            <article class="itens-container" data-aos="fade-up">
 
                 <div class="img-itens">
                     <img src="images/capitaldegiro.png" alt="">
@@ -120,40 +159,7 @@
         </div>
     </section>
 
-    <!-- AJUDAMOS -->
-    <section class="ajudamos">
-        <div class="titulo">
-            <h1>MELHORAMOS AS CONDIÇÕES DE VIDA DE MAIS DE 200.000 PESSOAS</h3>
-                <p>
-                    Fornecemos aos nossos clientes serviços de alta qualidade e reinvestimos os lucros em nossa própria estrutura, <br> uma política que nos levou ao crescimento, e ampliamos as atividades para vários pontos do Piauí.
-                </p>
-        </div>
-    </section>
-
-    <!-- BENEFICIOS -->
-    <section class="produtos">
-        <div class="titulo">
-            <h3>Benefícios Ceape</h3>
-                <p>
-                    Além de investir no seu negocio, o Ceape ainda reconhece seus clientes, com prêmios e dinheiro vivo.
-                </p>
-        </div>
-            <div class="flex">
-                <div class="produtos-box">
-                    <h3>Fidelização de Clientes</h3>
-                    <p>Acumule pontos e troque por prêmios!</p>
-                </div>
-                <div class="produtos-box">
-                    <h3>Dinheiro para seu Negócio</h3>
-                    <p>Capital de giro com as melhores taxas</p>
-                </div>
-                <div class="produtos-box">
-                    <h3>Indique e Ganhe</h3>
-                    <p>Indique um amigo e ganhe prêmios em dinheiro</p>
-                </div>
-            </div>
-        </div>
-    </section>
+   
 
     <!-- Casos de Sucesso -->
     <section class="depoimentos">
@@ -213,6 +219,11 @@
         </div>
     </section>
     <!-- end casos de sucesso -->
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+   </script>
 
 </body>
 
