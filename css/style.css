@@ -5,61 +5,70 @@
     font-family: "Poppins", sans-serif;
 }
 
+html{
+    height: 500vh;
+}
+
 body{
     background-color: #113793;
 }
 
 .interface{
-    max-width: 1200px;
-    margin: 0 auto;
+    max-width: 1280px;
+    margin: auto;
 }
 
-header .btn-contato button, .hero-site button{
-    font-size: 18px;
-    background-color: transparent;
-    border: 1px solid white;
-    color: white;
-    cursor: pointer;
-    transition: .5s;
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
+
+
+
+
 
 /* ESTILO DO HEADER */
 header{
     width: 100%;
-    padding: 40px 0;
+    padding: 60px 4%;
     position: fixed;
     top: 0;
     left: 0;
+    transition: 0.5s;
 }
 
-header .interface{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+header.rolagem{
+    background-color: #FACB03;
+    padding: 20px 4%;
 }
 
-header .logo img{
+header.rolagem a{
+    color: #113793;
+}
+
+header img{
     max-width: 60%;
     cursor: pointer;
 }
 
-header .menu-desktop nav ul{
+header ul{
     list-style-type: none;
 }
 
-header .menu-desktop nav ul li{
+header ul li{
     display: inline-block;
     margin: 0 40px;
 }
 
-header .menu-desktop nav ul li a{
+header ul li a{
     color: white;
     text-decoration: none;
     display: inline-block;
     transition: .2s;
 }
 
-.menu-desktop nav a:hover{
+.flex nav a:hover{
     transform: scale(1.05);
     
 }
@@ -69,13 +78,23 @@ header .btn-contato button{
     height: 50px;
 }
 
-header .btn-contato button:hover, .hero-site button:hover{
-    background-color: white;
-    color: black; 
+header .btn-contato button{
+    font-size: 18px;
+    background-color: #113793;
+    border: 1px solid #FACB03;
+    color: white;
+    cursor: pointer;
+    transition: .5s;
+}
+
+header .btn-contato button:hover{
+    background-color: #113793;
+    color: #FACB03; 
+    border: 1px solid #113793;
 }
 
 /* ESTILO HERO */
-section.hero-site{
+.hero-site{
     height: 100vh;
     background-image: url(../images/Banner.jpg);
     background-repeat: no-repeat;
@@ -102,12 +121,22 @@ section.hero-site{
     margin: 20px 0;
 }
 
-.hero-site button{
+ .hero-site button{
     width: 220px;
     height: 60px;
-    font-size: 20px;
+    font-size: 18px;
+    background-color: #FACB03;
+    border: 1px solid #113793;
+    color: #113793;
+    cursor: pointer;
+    transition: .5s;
 }
 
+.hero-site button:hover{
+    background-color: #FACB03;
+    color: #113793; 
+    border: 1px solid #FACB03;
+}
 /* ESTILO DAS VANTAGENS */
 
 section.produtos{
