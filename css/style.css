@@ -5,13 +5,11 @@
     font-family: "Poppins", sans-serif;
 }
 
-html{
-    height: 500vh;
+body{
+    height: 100vh;
+    background-color: #113893;
 }
 
-body{
-    background-color: #113793;
-}
 
 .interface{
     max-width: 1280px;
@@ -202,28 +200,38 @@ section.produtos .flex{
 }
 
 /* Casos de Sucesso */
+.titulo-depoi .titulo{
+    text-align: center;
+    margin-bottom: 20px;
+    color: #FACB03;
+}
 
 .depoimentos{
-    padding: 50px 4%;
+    width: 100%;
+    padding: 10px 20px;
 
-    max-width: 900%;
+    max-width: 900px;
     position: relative;
 
     overflow: hidden;
+    background-color: #FACB03;
+
+    margin: auto;
+    margin-bottom: 20px;
+
+    border-radius: 50px;
 }
 
 .depoimentos .slide{
-    padding: 40px 60px;
-
+    padding: 50px 60px;
 }
 
-.swiper-slide{
-    background-color: #FACB03;
-    text-align: center;
+.depoimentos .slide:active{
+    cursor: grabbing;
 }
 
 .depoimentos i{
-    font-size: 50px;
+    font-size: 70px;
     color: #113793;
 }
 
@@ -244,13 +252,16 @@ section.produtos .flex{
 }
 
 .slide .person p.nome-person{
-    font-size: 10px;
+    font-size: 15px;
     font-weight: 600;
 }
 
 .slide .person p.func-person{
     font-size: 14px;
 }
+
+/* ESTILO SOLICITAÇÃO */
+
 
 /* ESTILO RODAPÉ */
 footer{
