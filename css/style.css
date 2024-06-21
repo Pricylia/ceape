@@ -1,29 +1,29 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
 }
 
-body{
+body {
     height: 100vh;
     background-color: #113893;
 }
 
 
-.interface{
+.interface {
     max-width: 1280px;
     margin: auto;
 }
 
-.flex{
+.flex {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
 /* ESTILO DO HEADER */
-header{
+header {
     width: 100%;
     padding: 60px 4%;
     position: fixed;
@@ -33,46 +33,46 @@ header{
     z-index: 1000;
 }
 
-header.rolagem{
+header.rolagem {
     background-color: #FACB03;
     padding: 20px 4%;
 }
 
-header.rolagem a{
+header.rolagem a {
     color: #113793;
 }
 
-header img{
+header img {
     max-width: 60%;
     cursor: pointer;
 }
 
-header ul{
+header ul {
     list-style-type: none;
 }
 
-header ul li{
+header ul li {
     display: inline-block;
     margin: 0 40px;
 }
 
-header ul li a{
+header ul li a {
     color: white;
     text-decoration: none;
     display: inline-block;
     transition: .2s;
 }
 
-.flex nav a:hover{
+.flex nav a:hover {
     transform: scale(1.05);
 }
 
-header .btn-contato button{
+header .btn-contato button {
     width: 140px;
     height: 50px;
 }
 
-header .btn-contato button{
+header .btn-contato button {
     font-size: 18px;
     background-color: #113793;
     border: 1px solid #FACB03;
@@ -81,14 +81,14 @@ header .btn-contato button{
     transition: .5s;
 }
 
-header .btn-contato button:hover{
+header .btn-contato button:hover {
     background-color: #113793;
-    color: #FACB03; 
+    color: #FACB03;
     border: 1px solid #113793;
 }
 
 /* ESTILO HERO */
-.hero-site{
+.hero-site {
     height: 100vh;
     background-image: url(../images/Banner.jpg);
     background-repeat: no-repeat;
@@ -97,25 +97,25 @@ header .btn-contato button:hover{
     color: white;
 }
 
-.hero-site .interface{
+.hero-site .interface {
     display: flex;
     align-items: center;
     height: 100%;
 }
 
-.hero-site .txt-hero h1{
+.hero-site .txt-hero h1 {
     font-size: 4em;
     line-height: 70px;
     font-weight: 500;
 }
 
-.hero-site .txt-hero p{
+.hero-site .txt-hero p {
     font-size: 20px;
     font-weight: 300;
     margin: 20px 0;
 }
 
- .hero-site button{
+.hero-site button {
     width: 220px;
     height: 60px;
     font-size: 18px;
@@ -126,42 +126,42 @@ header .btn-contato button:hover{
     transition: .5s;
 }
 
-.hero-site button:hover{
+.hero-site button:hover {
     background-color: #FACB03;
-    color: #113793; 
+    color: #113793;
     border: 1px solid #FACB03;
 }
 
 /* ESTILO SOBRE */
-section.sobre{
+section.sobre {
     padding: 80px 4%;
 }
 
-section.sobre .flex{
+section.sobre .flex {
     align-items: center;
     gap: 60px;
 }
 
-.sobre .txt-sobre{
+.sobre .txt-sobre {
     color: white;
 }
 
-.sobre .txt-sobre h2{
+.sobre .txt-sobre h2 {
     font-size: 30px;
     line-height: 40px;
     margin-bottom: 30px;
 }
 
-.sobre .txt-sobre h2 span{
+.sobre .txt-sobre h2 span {
     color: #FACB03;
 }
 
-.sobre .txt-sobre p{
+.sobre .txt-sobre p {
     margin: 10px 0;
     text-align: justify;
 }
 
-.sobre .btn-social button{
+.sobre .btn-social button {
     width: 150px;
     height: 50px;
     border-radius: 10px;
@@ -174,29 +174,29 @@ section.sobre .flex{
 }
 
 .img-sobre img {
-    max-width: 700px; 
+    max-width: 700px;
     height: auto;
     border-radius: 40px;
 }
 
 /* ESTILO NOSSOS PRODUTOS*/
 
-.ajudamos{
+.ajudamos {
     padding: 60px 0;
     background-color: #FACB03;
 }
 
-.ajudamos .titulo{
+.ajudamos .titulo {
     text-align: center;
     margin-bottom: 20px;
 }
 
-.ajudamos .titulo h1{
+.ajudamos .titulo h1 {
     font-size: 30px;
     margin-bottom: 10px;
 }
 
-.ajudamos .container{
+.ajudamos .container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -204,21 +204,21 @@ section.sobre .flex{
     margin-bottom: 60px;
 }
 
-section.produtos{
+section.produtos {
     padding: 40px 4%;
 }
 
-section.produtos .flex{
+section.produtos .flex {
     display: flex;
     gap: 100px;
     justify-content: space-between;
 }
 
-.produtos .titulo{
+.produtos .titulo {
     text-align: center;
 }
 
-.produtos .produtos-box{
+.produtos .produtos-box {
     color: #FACB03;
     padding: 40px;
     border-radius: 20px;
@@ -226,17 +226,17 @@ section.produtos .flex{
     transition: .2s;
 }
 
-.produtos .produtos-box:hover{
+.produtos .produtos-box:hover {
     transform: scale(1.05);
     box-shadow: 0 0 8px #FACB03;
 }
 
-.produtos .produtos-box i{
+.produtos .produtos-box i {
     font-size: 50px;
     color: #FACB03;
 }
 
-.produtos .produtos-box h3{
+.produtos .produtos-box h3 {
     font-size: 28px;
     margin: 15px 0;
 }
@@ -246,55 +246,136 @@ section.produtos .flex{
 }
 
 /* ESTILO NOSSOS BENEFICIOS */
-.swiper{
-    width: 100%;
-
-}
-
-.swiper-wrapper{
-    width: 100%;
-    height: 35em;
+.beneficios-container {
     display: flex;
+    place-items: center;
     justify-content: center;
-    align-items: center;
+    margin-inline: 1.5rem;
+    padding-block: 3rem;
 }
 
-.card{
-    width: 20em;
-    height: 90%;
-    background-color: #FACB03;
-    border-radius: 2em;
-    box-shadow: 0 0 2em rgba(0, 0, 0, .2);
-    padding: 2em 1em;
-
+.card__container {
     display: flex;
-    align-items: center;
-    flex-direction: column;
+    row-gap: 3.5rem;
+    gap: 50px;
 }
 
-.card__image{
-    width: 10em;
-    height: 10em;
-    border-radius: 50%;
-    border: 5px solid #113793;
-    padding: 3px;
+.card__article {
+    position: relative;
+    overflow: hidden;
 }
 
-.card__image img{
-    width: 100%;
-    height: 100%;
-    border-radius: 50%;
-    object-fit: cover;
+.card__img img{
+    width: 328px;
+    border-radius: 1.5rem;
+}
+
+.card__data {
+    width: 280px;
+    background-color: #FACB03;
+    padding: 1.5rem 2rem;
+    box-shadow: 0 8px 24px #113793;
+    border-radius: 1rem;
+    position: absolute;
+    bottom: -9rem;
+    left: 0;
+    right: 0;
+    margin-inline: auto;
+    opacity: 0;
+    transition: opasity 1s 1s;
+}
+
+.card__text {
+    display: block;
+    font-size: 13px;
+    margin-bottom: .25rem;
+}
+
+.card__title {
+    display: block;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: .75rem;
+}
+
+.card__button {
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 500;
+    color: #113793;
+}
+
+.card__button:hover {
+    text-decoration: underline;
+}
+
+.card__article:hover .card__data {
+    animation: show-data 1s forwards;
+    opacity: 1;
+    transition: opacity .3s;
+}
+
+.card__article:hover {
+    animation: remove-overflow 2s forwards;
+}
+
+.card__article:not(:hover) {
+    animation: show-overflow 2s forwards;
+}
+
+.card__article:not(:hover) .card__data {
+    animation: remove-data 1s forwards;
+}
+
+@keyframes show-data {
+    50% {
+        transform: translateY(-10rem);
+    }
+
+    100% {
+        transform: translateY(-7rem);
+    }
+}
+
+@keyframes remove-overflow {
+    to {
+        overflow: initial;
+    }
+}
+
+@keyframes remove-data {
+    0% {
+        transform: translateY(-7rem);
+    }
+
+    50% {
+        transform: translateY(-10rem);
+    }
+
+    100% {
+        transform: translateY(.5rem);
+    }
+}
+
+@keyframes show-overflow {
+    0% {
+        overflow: initial;
+        pointer-events: none;
+    }
+
+    50% {
+        overflow: hidden;
+    }
 }
 
 /* Casos de Sucesso */
-.titulo-depoi .titulo{
+.titulo-depoi .titulo {
     text-align: center;
     margin-bottom: 20px;
     color: #FACB03;
 }
 
-.depoimentos{
+.depoimentos {
     width: 100%;
     padding: 10px 20px;
 
@@ -310,41 +391,42 @@ section.produtos .flex{
     border-radius: 50px;
 }
 
-.depoimentos .slide{
+
+.depoimentos .slide {
     padding: 50px 60px;
 }
 
-.depoimentos .slide:active{
+.depoimentos .slide:active {
     cursor: grabbing;
 }
 
-.depoimentos i{
+.depoimentos i {
     font-size: 70px;
     color: #113793;
 }
 
-.depoimentos p.depoi-txt{
+.depoimentos p.depoi-txt {
     font-weight: 300;
     margin-bottom: 40px;
 }
 
-.slide .person{
+.slide .person {
     display: flex;
     align-items: center;
     gap: 20px;
 }
 
-.slide .person img{
+.slide .person img {
     width: 80px;
     height: 80px;
 }
 
-.slide .person p.nome-person{
+.slide .person p.nome-person {
     font-size: 15px;
     font-weight: 600;
 }
 
-.slide .person p.func-person{
+.slide .person p.func-person {
     font-size: 14px;
 }
 
@@ -352,7 +434,7 @@ section.produtos .flex{
 .container {
     display: flex;
     align-items: center;
-    background-image: url(../images/Bannerrr.jpg);
+    background-color: #449af50a;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -382,7 +464,8 @@ section.produtos .flex{
     color: #555;
 }
 
-.formulario input, .formulario textarea {
+.formulario input,
+.formulario textarea {
     width: 100%;
     padding: 10px;
     margin-bottom: 15px;
@@ -413,26 +496,26 @@ section.produtos .flex{
 }
 
 /* ESTILO RODAPÉ */
-footer{
+footer {
     background-color: #FACB03;
 }
 
-footer .flex{
+footer .flex {
     padding: 0 8%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-} 
+}
 
-footer .line-footer{
+footer .line-footer {
     padding: 2px 0;
 }
 
-footer .line-footer img{
-    max-width: 100px; 
+footer .line-footer img {
+    max-width: 100px;
 }
 
-.btn-social button{
+.btn-social button {
     width: 30px;
     height: 60px;
     border-radius: 40%;
