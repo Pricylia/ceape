@@ -391,7 +391,6 @@ section.produtos .flex {
     border-radius: 50px;
 }
 
-
 .depoimentos .slide {
     padding: 50px 60px;
 }
@@ -525,4 +524,30 @@ footer .line-footer img {
     font-size: 20px;
     cursor: pointer;
     transition: 1.2s;
+}
+
+/* CONTATO */
+
+.contato{
+    padding: 60px 4%;
+}
+
+.contato-info{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.contato-info .left-side{
+    width: 25%;
+    padding: 10px;
+    background-color: #FACB03;
+    border-radius: 14px;
+    margin-right: 50px;
+    height: fit-content;
+}
+
+.contato-info .left-side div{
+    display: flex;
+    align-items: center;
 }
