@@ -499,19 +499,11 @@ footer {
     background-color: #FACB03;
 }
 
-footer .flex {
+footer .interface{
     padding: 0 8%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-footer .line-footer {
-    padding: 2px 0;
-}
-
-footer .line-footer img {
-    max-width: 100px;
 }
 
 .btn-social button {
@@ -527,6 +519,23 @@ footer .line-footer img {
 }
 
 /* CONTATO */
+header .btn-contato1 button {
+    width: 140px;
+    height: 50px;
+    font-size: 18px;
+    background-color: #113793;
+    border: 1px solid #113793;
+    color: #FACB03;
+    cursor: pointer;
+    transition: .5s;
+    border-radius: 10px;
+}
+
+header .btn-contato1 button:hover {
+    background-color: #113793;
+    color: #FACB03;
+    border: 1px solid #113793;
+}
 
 .contato{
     padding: 60px 4%;
@@ -539,8 +548,8 @@ footer .line-footer img {
 }
 
 .contato-info .left-side{
-    width: 25%;
-    padding: 10px;
+    width: 50%;
+    padding: 30px;
     background-color: #FACB03;
     border-radius: 14px;
     margin-right: 50px;
@@ -550,4 +559,59 @@ footer .line-footer img {
 .contato-info .left-side div{
     display: flex;
     align-items: center;
+    margin-bottom: 10px;
 }
+
+.contato-info .left-side div i{
+    font-size: 24px;
+    margin-right: 20px;
+    color: #113793;
+}
+
+.contato-info .left-side div p{
+    font-size: 17px;
+    color: #113793;
+}
+
+.contato-info .right-side{
+    width: 50%;
+}
+
+.contato-info .right-side input{
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    height: 47px;
+    padding: 15px;
+    border-radius: 9px;
+    transition: 0.3s;
+    color: #113793;
+}
+
+.contato-info .right-side input:focus,
+.contato-info .right-side textarea:focus{
+    border-color: #FACB03;
+}
+
+.contato-info .right-side textarea{
+    color: #113793;
+    border-radius: 9px;
+    margin-bottom: 10px;
+    padding: 15px;
+    width: 100%;
+    transition: 0.3s;
+    resize: none;
+}
+
+.contato-info .right-side button{
+    width: 170px;
+    height: 50px;
+    font-size: 15px;
+    background-color: #FACB03;
+    border: 1px solid #FACB03;
+    color: #113793;
+    cursor: pointer;
+    transition: .5s;
+    border-radius: 10px;
+}
+
